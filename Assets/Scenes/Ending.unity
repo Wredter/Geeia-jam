@@ -436,7 +436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 586704654}
-  epicGodnoscWin: {fileID: 0}
+  epicGodnoscWin: {fileID: 1596937224}
 --- !u!61 &1392777209
 BoxCollider2D:
   m_ObjectHideFlags: 0
