@@ -50,3 +50,9 @@ TagManager:
   - name: Player
     uniqueID: 753060397
     locked: 0
+  - name: Dragable_dest
+    uniqueID: 3272568081
+    locked: 0
+  - name: Dragable
+    uniqueID: 1452446947
+    locked: 0
