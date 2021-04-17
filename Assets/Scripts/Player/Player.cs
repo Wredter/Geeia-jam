@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
         rb.MovePosition(rb.position + movment * moveSpeed * Time.fixedDeltaTime);
         if (movment.x != 0 || movment.y != 0)
         {
-            t.Rotate(new Vector3(0, 0, (Mathf.Sin(Time.time)*10f)));
+            //t.Rotate(new Vector3(0, 0, (Mathf.Sin(Time.time)*10f)));
         }
     }
 }
