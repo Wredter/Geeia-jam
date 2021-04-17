@@ -9,11 +9,20 @@ public class Player : MonoBehaviour
     public Rigidbody2D rb;
     public Transform t;
     Vector2 movment = new Vector2(2f, 2f);
+    public SpriteRenderer spriteRenderer;
 
     void Update()
     {
         movment.x = Input.GetAxisRaw("Horizontal");
         movment.y = Input.GetAxisRaw("Vertical");
+
+        if(movment.x > 0){
+            spriteRenderer.flipX = false;
+        }
+        else if(movment.x < 0){
+             spriteRenderer.flipX = true;
+        }
+
 
     }
     void FixedUpdate()
