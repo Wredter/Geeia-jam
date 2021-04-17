@@ -278,6 +278,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6599185120924103852, guid: e494eb6f690543e4a996fb7db2119457, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 2060266208}
     - target: {fileID: 6599185120924103855, guid: e494eb6f690543e4a996fb7db2119457, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -324,3 +328,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e494eb6f690543e4a996fb7db2119457, type: 3}
+--- !u!212 &2060266208 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6599185120924103854, guid: e494eb6f690543e4a996fb7db2119457, type: 3}
+  m_PrefabInstance: {fileID: 2060266207}
+  m_PrefabAsset: {fileID: 0}
