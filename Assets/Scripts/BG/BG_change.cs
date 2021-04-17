@@ -6,7 +6,9 @@ using UnityEngine.SceneManagement;
 public class BG_change : MonoBehaviour
 {
     // Start is called before the first frame update
-    public int next_scene;
+    
+    // public int next_scene;
+    public string next_scene;
     // Update is called once per frame
     private void OnTriggerStay2D(Collider2D other)
     {
