@@ -1,13 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class End_drag : MonoBehaviour
 {
 
 public GameObject destination; 
-
 public GameObject epicGodnoscWin;
+
+public GameObject WINepic;
+public GameObject WINzubrex;
+
+public AudioSource dropSound;
 
 private float startX, startY;
 private bool isMoving, przedragowane;
@@ -61,13 +66,19 @@ private Vector3 restorePos;
         {
             this.transform.position = new Vector3(destination.transform.position.x, destination.transform.position.y, destination.transform.position.z);
             przedragowane = true;
+            BG_change.canContinue = true;
+            dropSound.Play(1);
 
-            if(this.gameObject.name == epicGodnoscWin.name)
+            if(SceneManager.GetActiveScene().name == "Ending"){
+                if(this.gameObject.name == epicGodnoscWin.name)
             {
                 Debug.Log("Superancko ocaliłeś zioma coś tam");
+                WINepic.gameObject.SetActive(true);
             }
             else{
                 Debug.Log("Superancko Żubrex ocalony profit");
+                WINzubrex.gameObject.SetActive(true);
+            }
             }
 
         }
