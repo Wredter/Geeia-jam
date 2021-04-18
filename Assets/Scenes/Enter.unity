@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 52c7890902e4add4d873ecd694792b18, type: 2}
+  sharedProfile: {fileID: 11400000, guid: f0208db06769fcf45847f4dc5b00ac8a, type: 2}
   isGlobal: 1
   blendDistance: 0
   weight: 1
@@ -326,7 +326,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0446e05c3962b6646b51c5102bd1666d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b7c4c4fdf29f27a439c5700c66b4c051, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -454,9 +454,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4d96fc212d6c2644cb24469df94e92a9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 444ab2b4463b7cc448f9c82c944ace05, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.51
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -550,7 +550,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 34e318af3b63a584daf2f0ca0ea1c514, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b94a0408785e41c45860fab44ebd81c5, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -707,7 +707,7 @@ SpriteRenderer:
   m_SortingLayerID: -1022399215
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e1deb8136f6082f458afadec03c76e94, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ae32430214e28c048b3eb38c1a74d00c, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -836,6 +836,7 @@ GameObject:
   - component: {fileID: 1586149354}
   - component: {fileID: 1586149353}
   - component: {fileID: 1586149356}
+  - component: {fileID: 1586149357}
   m_Layer: 0
   m_Name: cembulacien
   m_TagString: Untagged
@@ -855,11 +856,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 130e61eacd9c1184490d4f7ba11a38b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 848480274}
-  epicGodnoscWin: {fileID: 1586149352}
-  WINepic: {fileID: 0}
-  WINzubrex: {fileID: 0}
-  dropSound: {fileID: 710212278}
 --- !u!212 &1586149354
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -900,7 +896,7 @@ SpriteRenderer:
   m_SortingLayerID: 1452446947
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e1deb8136f6082f458afadec03c76e94, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ae32430214e28c048b3eb38c1a74d00c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -951,6 +947,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 11.13, y: 9.27}
   m_EdgeRadius: 0
+--- !u!114 &1586149357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586149352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da34bd3fde92f3041b549aaa6d1d98a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {fileID: 848480274}
+  epicGodnoscWin: {fileID: 1586149352}
+  WINepic: {fileID: 0}
+  WINzubrex: {fileID: 0}
+  dropSound: {fileID: 710212278}
 --- !u!1001 &1515992308880435224
 PrefabInstance:
   m_ObjectHideFlags: 0
