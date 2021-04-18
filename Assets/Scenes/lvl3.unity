@@ -792,12 +792,20 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4639439434165417926, guid: aa52d84017e52ac46907dc36545eb586, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3269953
+      objectReference: {fileID: 0}
+    - target: {fileID: 4639439434165417926, guid: aa52d84017e52ac46907dc36545eb586, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4720137
+      objectReference: {fileID: 0}
+    - target: {fileID: 4639439434165417926, guid: aa52d84017e52ac46907dc36545eb586, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.0432
       objectReference: {fileID: 0}
     - target: {fileID: 4639439434165417926, guid: aa52d84017e52ac46907dc36545eb586, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.1006
       objectReference: {fileID: 0}
     - target: {fileID: 4639439434165417926, guid: aa52d84017e52ac46907dc36545eb586, type: 3}
       propertyPath: m_LocalPosition.z
@@ -854,6 +862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4e9976b40757644a9f82bc9c77753ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isStory: 0
   next_scene: Ending
 --- !u!58 &1210214013
 CircleCollider2D:

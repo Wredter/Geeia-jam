@@ -7,10 +7,20 @@ public class BG_change : MonoBehaviour
 {
 
     public static bool canContinue;
+    public bool isStory;
 
     // Start is called before the first frame update
     void Start(){
         canContinue = false;
+    }
+    void Update(){
+        if(isStory){
+            if(Input.GetKeyDown(KeyCode.Space))
+            {
+                print("triger");
+                SceneManager.LoadScene(next_scene, LoadSceneMode.Single);
+            }
+        }
     }
 
     // public int next_scene;

@@ -298,6 +298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4e9976b40757644a9f82bc9c77753ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isStory: 0
   next_scene: 
 --- !u!1 &710212277
 GameObject:
@@ -765,6 +766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4e9976b40757644a9f82bc9c77753ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isStory: 0
   next_scene: lvl2
 --- !u!50 &1242707734
 Rigidbody2D:
@@ -1050,12 +1052,20 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4639439434165417926, guid: aa52d84017e52ac46907dc36545eb586, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3162266
+      objectReference: {fileID: 0}
+    - target: {fileID: 4639439434165417926, guid: aa52d84017e52ac46907dc36545eb586, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4297229
+      objectReference: {fileID: 0}
+    - target: {fileID: 4639439434165417926, guid: aa52d84017e52ac46907dc36545eb586, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.0404
       objectReference: {fileID: 0}
     - target: {fileID: 4639439434165417926, guid: aa52d84017e52ac46907dc36545eb586, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.0229
       objectReference: {fileID: 0}
     - target: {fileID: 4639439434165417926, guid: aa52d84017e52ac46907dc36545eb586, type: 3}
       propertyPath: m_LocalPosition.z
