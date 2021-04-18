@@ -91,10 +91,12 @@ private Vector3 restorePos;
             {
                 Debug.Log("Superancko ocaliłeś zioma coś tam");
                 WINepic.gameObject.SetActive(true);
+                destination.gameObject.SetActive(false);
             }
             else{
                 Debug.Log("Superancko Żubrex ocalony profit");
                 WINzubrex.gameObject.SetActive(true);
+                destination.gameObject.SetActive(false);
             }
             }
 
