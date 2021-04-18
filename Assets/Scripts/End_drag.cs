@@ -41,7 +41,10 @@ private Vector3 restorePos;
                 this.gameObject.transform.localPosition = new Vector3(mousePos.x - startX, mousePos.y - startY, this.gameObject.transform.localPosition.z);
             }
         }
-        if(WINzubrex.active)
+
+        if(SceneManager.GetActiveScene().name == "Ending")
+        {
+if(WINzubrex.active) 
         {
             if(Input.GetKeyDown(KeyCode.Space))
             {
@@ -56,6 +59,7 @@ private Vector3 restorePos;
                 print("triger");
                 SceneManager.LoadScene(Goodend, LoadSceneMode.Single);
             }
+        }
         }
         
     }
