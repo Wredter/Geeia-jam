@@ -945,6 +945,8 @@ MonoBehaviour:
   WINepic: {fileID: 126738187}
   WINzubrex: {fileID: 141995962}
   dropSound: {fileID: 319848416}
+  Goodend: End2
+  BadEnd: End1
 --- !u!222 &1392777213
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1175,6 +1177,8 @@ MonoBehaviour:
   WINepic: {fileID: 126738187}
   WINzubrex: {fileID: 141995962}
   dropSound: {fileID: 319848416}
+  Goodend: End2
+  BadEnd: End1
 --- !u!1 &1957541649
 GameObject:
   m_ObjectHideFlags: 0
