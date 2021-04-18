@@ -151,9 +151,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6f27e1b96a95c9c47b9dc8d76e97d34e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f021bfe95d059cf4f86445f22879795f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.51
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -247,7 +247,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3a83dbc1943a47b46a61d617a60170da, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 71f107dfca4608546b20e218c09948cc, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -404,7 +404,7 @@ SpriteRenderer:
   m_SortingLayerID: -1022399215
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b6c80abd857933e409c4bb1ec918c789, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 420c185fefcbedf439a38beea2ea8bdd, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -526,7 +526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 8a231dff74a93ed408b90bdbd67d437c, type: 2}
+  sharedProfile: {fileID: 11400000, guid: f0208db06769fcf45847f4dc5b00ac8a, type: 2}
   isGlobal: 1
   blendDistance: 0
   weight: 1
@@ -650,7 +650,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0446e05c3962b6646b51c5102bd1666d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b7c4c4fdf29f27a439c5700c66b4c051, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -857,6 +857,7 @@ GameObject:
   - component: {fileID: 1740219342}
   - component: {fileID: 1740219341}
   - component: {fileID: 1740219344}
+  - component: {fileID: 1740219345}
   m_Layer: 0
   m_Name: kimbel
   m_TagString: Untagged
@@ -921,7 +922,7 @@ SpriteRenderer:
   m_SortingLayerID: 1452446947
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b6c80abd857933e409c4bb1ec918c789, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 420c185fefcbedf439a38beea2ea8bdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -972,6 +973,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.38, y: 7.54}
   m_EdgeRadius: 0
+--- !u!114 &1740219345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740219340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da34bd3fde92f3041b549aaa6d1d98a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {fileID: 280493788}
+  epicGodnoscWin: {fileID: 1740219340}
+  WINepic: {fileID: 0}
+  WINzubrex: {fileID: 0}
+  dropSound: {fileID: 986342496}
 --- !u!1001 &2060266207
 PrefabInstance:
   m_ObjectHideFlags: 0
