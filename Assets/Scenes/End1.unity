@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &399180919
+--- !u!1001 &1844229357
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -140,19 +140,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4639439434165417926, guid: aa52d84017e52ac46907dc36545eb586, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8756514
+      value: 0.49680123
       objectReference: {fileID: 0}
     - target: {fileID: 4639439434165417926, guid: aa52d84017e52ac46907dc36545eb586, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.7293488
+      value: 0.47549617
       objectReference: {fileID: 0}
     - target: {fileID: 4639439434165417926, guid: aa52d84017e52ac46907dc36545eb586, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0091
+      value: -0.0442
       objectReference: {fileID: 0}
     - target: {fileID: 4639439434165417926, guid: aa52d84017e52ac46907dc36545eb586, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0681
+      value: 0.0882
       objectReference: {fileID: 0}
     - target: {fileID: 4639439434165417926, guid: aa52d84017e52ac46907dc36545eb586, type: 3}
       propertyPath: m_LocalPosition.z
@@ -189,29 +189,10 @@ PrefabInstance:
     - target: {fileID: 4639439434165417927, guid: aa52d84017e52ac46907dc36545eb586, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: c1fa4e5882a8a1b45b88cd6823fd7331, type: 3}
+      objectReference: {fileID: 21300000, guid: 794f3f43f29e9c64ab804039d8f7a6b7, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa52d84017e52ac46907dc36545eb586, type: 3}
---- !u!1 &399180920 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4639439434165417924, guid: aa52d84017e52ac46907dc36545eb586, type: 3}
-  m_PrefabInstance: {fileID: 399180919}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &399180921
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 399180920}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4e9976b40757644a9f82bc9c77753ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isStory: 1
-  next_scene: Intro2
---- !u!1 &1732910111
+--- !u!1 &1971385356
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -219,9 +200,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1732910114}
-  - component: {fileID: 1732910113}
-  - component: {fileID: 1732910112}
+  - component: {fileID: 1971385359}
+  - component: {fileID: 1971385358}
+  - component: {fileID: 1971385357}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -229,21 +210,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1732910112
+--- !u!81 &1971385357
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1732910111}
+  m_GameObject: {fileID: 1971385356}
   m_Enabled: 1
---- !u!20 &1732910113
+--- !u!20 &1971385358
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1732910111}
+  m_GameObject: {fileID: 1971385356}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -280,13 +261,13 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &1732910114
+--- !u!4 &1971385359
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1732910111}
+  m_GameObject: {fileID: 1971385356}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}

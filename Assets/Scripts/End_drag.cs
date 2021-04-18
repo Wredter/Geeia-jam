@@ -16,7 +16,8 @@ public AudioSource dropSound;
 
 private float startX, startY;
 private bool isMoving, przedragowane;
-
+public string Goodend;
+public string BadEnd;
 private Vector3 restorePos;
 
     // Start is called before the first frame update
@@ -38,6 +39,22 @@ private Vector3 restorePos;
                 mousePos = Camera.main.ScreenToWorldPoint(mousePos);
 
                 this.gameObject.transform.localPosition = new Vector3(mousePos.x - startX, mousePos.y - startY, this.gameObject.transform.localPosition.z);
+            }
+        }
+        if(WINzubrex.active)
+        {
+            if(Input.GetKeyDown(KeyCode.Space))
+            {
+                print("triger");
+                SceneManager.LoadScene(BadEnd, LoadSceneMode.Single);
+            }
+        }
+        if(WINepic.active)
+        {
+            if(Input.GetKeyDown(KeyCode.Space))
+            {
+                print("triger");
+                SceneManager.LoadScene(Goodend, LoadSceneMode.Single);
             }
         }
         
